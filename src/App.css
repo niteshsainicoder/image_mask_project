@@ -1,0 +1,75 @@
+#Main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#Middle{
+    height: auto;
+    justify-items: center;
+    align-items: center;    
+    width: 50%;
+    gap: 20px;
+display: flex;
+}
+button{
+    background-color: aqua;
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 8px;
+    width: fit-content;
+    max-width: 100px;
+}
+
+button:hover{
+        background-color: rgb(139, 251, 251);
+        border: 2px solid rgb(92, 92, 92);
+
+    }
+
+input{
+    background-color: rgb(139, 251, 251);
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 8px;
+    width: fit-content;
+   
+}
+
+img{
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: fit-content;
+    max-width: 300px;
+    width: fit-content;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+#UpperSection{
+    padding: 10px;
+    width: fit-content;
+   min-height: 90vh;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 8px;
+    min-width: 50vw;
+  
+}
+
+#canvasbox{
+    border: 2px solid rgb(92, 92, 92);
+}
+
+@media screen and (max-width: 600px) {
+    #UpperSection{
+width: 100vw;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
